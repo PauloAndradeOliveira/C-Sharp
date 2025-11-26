@@ -27,20 +27,37 @@
 #endregion
 
 #region Operadores de Atribuição
-//var x = 2;
-//x += 3;
-//Console.WriteLine($"Utilizando o operador de atribuição ( += ) : {x}");
+//Console.WriteLine("\n### Operadores de Atribuição ###");
 
-//var b = 2;
-//b -= 3;
-//// Valor fica ( -1 ) pois estamos dizendo que (b -= 3)
-//Console.WriteLine($"Utilizando o operador de atribuição ( -= ) : {b}");
+//// Operador =
+//Console.WriteLine("\nOperador (=)");
+//int x = 10;
+//Console.WriteLine($"x = {x}");
 
-//var c = 2;
-//c = 3;
-//// valor atribuido é 2.
-//// Após a atribuição o valor fica 3.
-//Console.WriteLine($"Utilizando o operador de atribuição ( = ) : {c}");
+//// Operador +=
+//Console.WriteLine("\nOperador (+=)");
+//x += 5;
+//Console.WriteLine($"x += 5  →  {x}");
+
+//// Operador -=
+//Console.WriteLine("\nOperador (-=)");
+//x -= 3;
+//Console.WriteLine($"x -= 3  →  {x}");
+
+//// Operador *=
+//Console.WriteLine("\nOperador (*=)");
+//x *= 2;
+//Console.WriteLine($"x *= 2  →  {x}");
+
+//// Operador /=
+//Console.WriteLine("\nOperador (/=)");
+//x /= 4;
+//Console.WriteLine($"x /= 4  →  {x}");
+
+//// Operador %=
+//Console.WriteLine("\nOperador (%=)");
+//x %= 3;
+//Console.WriteLine($"x %= 3  →  {x}");
 #endregion
 
 #region Operador de Comparação 
